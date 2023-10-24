@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference Between Css Flexbox and Grid layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            margin: 40px;
+        }
+        th{
+            padding: 8px;
+        }
+         td{
+            text-align: justify;
+            padding: 10px;
+        }
+        .flexbox{
+            margin: 50px;
+        }
+        h2{
+            margin-top: 15px;
+            margin-bottom: 2px;
+        }
+        th{
+            font-size: 25px;
+        }
+        caption{
+            margin-bottom: 10px;
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Difference Between Css Flexbox And Css Grid</caption>
+        <tr>
+            <th>CSS FLEXBOX</th>
+            <th>CSS GRID</th>
+        </tr>
+        <tr>
+            <td>CSS Flexbox is a one-dimensional layout model, meaning that it can layout items either in a row or a column </td>
+            <td>CSS Grid is a two-dimensional layout model, meaning that it can layout items in both rows and columns</td>
+        </tr>
+        <tr>
+            <td>It is ideal for creating simple layouts, such as a header with a navigation bar and a logo, or a footer with social media icons and copyright information</td>
+            <td>It is ideal for creating complex layouts, such as magazine-style layouts with articles, sidebars, and headers, or product grids with images, prices, and descriptions</td>
+        </tr>
+        <tr>
+            <td> Flexbox is also good for creating responsive layouts, as it can automatically adjust the size and position of items based on the available space.</td>
+            <td> CSS Grid is also good for creating responsive layouts, as it allows you to define how items should behave when the screen size changes.</td>
+        </tr>
+    </table>
+    <div class="flexbox">
+        <h2>When To use Flexbox</h2>
+        <ul>
+            <li>To create simple layouts with a single row or column of items.</li>
+            <li>To create responsive layouts that can adapt to different screen sizes.</li>
+            <li>To align items horizontally or vertically.</li>
+            <li>To distribute space evenly between items.</li>
+        </ul>
+        <h2>When To use CSS Grid</h2>
+        <ul>
+            <li>To create complex layouts with multiple rows and columns.</li>
+            <li>To create responsive layouts that can adapt to different screen sizes and orientations.</li>
+            <li>To position items precisely on the page.</li>
+            <li>To create complex column and row layouts.</li>
+        </ul>
+    </div>
+</body>
+</html>

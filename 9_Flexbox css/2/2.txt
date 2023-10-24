@@ -1,0 +1,53 @@
+Explain the role of the following key properties in the Flexbox layout model.
+
+
+(1) Justify-content ->  The justify-content property in Flexbox controls how the browser distributes space between and around flex items along the main axis of the flex container. The main axis is the horizontal axis for row layouts and the vertical axis for column layouts.
+
+The following values are available for the justify-content property:
+
+flex-start: The flex items are packed towards the start of the main axis. This is the default value.
+
+flex-end: The flex items are packed towards the end of the main axis.
+
+center: The flex items are centered along the main axis.
+space-between: The flex items are evenly distributed along the main axis, with the first and last items on the start and end of the axis, respectively.
+
+space-around: The flex items are evenly distributed along the main axis, with equal space around each item.
+
+space-evenly: The flex items are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same.
+
+
+(2) Gap ->  
+The gap property in CSS Flexbox controls the space between flex items in both the row and column directions. It is a shorthand for the row-gap and column-gap properties.
+
+The gap property can be set to a single value, which will be applied to both the row and column directions. Or, it can be set to two values, which will be applied to the row and column directions, respectively.
+
+(3) Align-items ->
+The align-items property in CSS Flexbox controls how flex items are aligned along the cross axis. The cross axis is the perpendicular axis to the main axis, which is the direction in which the flex items are laid out.
+
+The following values are available for the align-items property:
+
+flex-start: The flex items are aligned to the start of the cross axis.
+flex-end: The flex items are aligned to the end of the cross axis.
+center: The flex items are centered along the cross axis.
+baseline: The flex items are aligned so that their baselines align.
+stretch: The flex items are stretched to fill the container along the cross axis.
+
+(4) Flex-direction ->
+The flex-direction property in CSS Flexbox controls the direction in which flex items are laid out. The default value is row, which means that flex items are laid out horizontally from left to right.
+
+The following values are available for the flex-direction property:
+
+row: Flex items are laid out horizontally from left to right.
+row-reverse: Flex items are laid out horizontally from right to left.
+column: Flex items are laid out vertically from top to bottom.
+column-reverse: Flex items are laid out vertically from bottom to top.
+
+(5) Flex-wrap ->
+The flex-wrap property in CSS Flexbox controls whether flex items are forced onto a single line or wrapped onto multiple lines. The default value is nowrap, which means that flex items will be forced onto a single line, even if they overflow the flex container.
+
+The following values are available for the flex-wrap property:
+
+nowrap: Flex items are forced onto a single line.
+wrap: Flex items can wrap onto multiple lines.
+wrap-reverse: Flex items can wrap onto multiple lines, but the order of the flex items is reversed on each new line.
